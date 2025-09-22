@@ -1,4 +1,4 @@
-import { Award, Users, Trophy, Target, Clock, Star, Waves, Medal } from 'lucide-react';
+import { Award, Users, Trophy, Target, Clock, Star, Waves, Medal, Phone } from 'lucide-react';
 import Typewriter from '@/components/Typewriter';
 
 const CoachesSection = () => {
@@ -12,7 +12,8 @@ const CoachesSection = () => {
       certifications: ['Level 4 Swimming Coach', 'Water Safety Instructor', 'First Aid Certified'],
       description: 'Swimming is not just about technique—it\'s about building character, discipline, and the determination to excel. Every swimmer who joins our club becomes part of our family, and we\'re committed to helping them achieve their dreams.',
       image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop',
-      expertise: ['Freestyle', 'Butterfly', 'Competitive Training', 'Technique Development']
+      expertise: ['Freestyle', 'Butterfly', 'Competitive Training', 'Technique Development'],
+      phone: '+91 72080 00785'
     }
   ];
 
@@ -43,6 +44,10 @@ const CoachesSection = () => {
             <div className="flex items-center space-x-2 mb-3">
               <Award className="h-4 w-4 text-secondary" />
               <p className="text-primary-foreground font-medium">{coach.achievements}</p>
+            </div>
+            <div className="flex items-center space-x-2 mb-3">
+              <Phone className="h-4 w-4 text-secondary" />
+              <p className="text-primary-foreground font-medium">{coach.phone}</p>
             </div>
           </div>
           
