@@ -11,7 +11,7 @@ const HeroSection = () => {
   ];
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-12 sm:pt-16 md:pt-20 lg:pt-24">
+    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
       {/* Background Video */}
       <div className="absolute inset-0 z-0">
         {/* YouTube Video Background */}
@@ -38,9 +38,9 @@ const HeroSection = () => {
         </div>
       </div>
 
-      {/* Hero Content */}
-      <div className="relative z-20 text-center px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
-        <div className="animate-float">
+              {/* Hero Content */}
+              <div className="relative z-20 text-center px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
+                <div>
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-primary-foreground mb-4 sm:mb-6 tracking-tight">
               <span className="block">SakiVihar Complex</span>
               <span className="block bg-gradient-primary bg-clip-text text-transparent animate-underwater">
@@ -101,7 +101,7 @@ const HeroSection = () => {
               className="glass-card p-4 sm:p-6 text-center team-card"
               style={{ animationDelay: `${index * 200}ms` }}
             >
-              <stat.icon className="h-6 w-6 sm:h-8 sm:w-8 text-secondary mx-auto mb-2 sm:mb-3 animate-float" />
+                      <stat.icon className="h-6 w-6 sm:h-8 sm:w-8 text-secondary mx-auto mb-2 sm:mb-3" />
               <div className="text-2xl sm:text-3xl font-bold text-primary-foreground mb-1 sm:mb-2">
                 {stat.value}
               </div>
@@ -113,12 +113,12 @@ const HeroSection = () => {
         </div>
       </div>
 
-      {/* Floating Action Elements */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <div className="w-6 h-10 border-2 border-secondary/50 rounded-full flex justify-center">
-          <div className="w-1 h-3 bg-secondary rounded-full mt-2 animate-pulse"></div>
-        </div>
-      </div>
+              {/* Scroll Indicator */}
+              <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
+                <div className="w-6 h-10 border-2 border-secondary/50 rounded-full flex justify-center">
+                  <div className="w-1 h-3 bg-secondary rounded-full mt-2"></div>
+                </div>
+              </div>
     </section>
   );
 };

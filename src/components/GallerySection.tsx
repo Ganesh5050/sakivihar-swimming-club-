@@ -114,7 +114,7 @@ const GallerySection = () => {
     <section id="gallery" className="py-20 bg-gradient-underwater">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-primary-foreground mb-6 animate-float">
+          <h2 className="text-4xl md:text-5xl font-bold text-primary-foreground mb-6">
             <Typewriter 
               words={['Photo & Video Gallery', 'Our Memories', 'Training Moments', 'Championship Highlights']}
               delay={3500}

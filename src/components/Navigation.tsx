@@ -39,7 +39,7 @@ const Navigation = () => {
   };
 
   return (
-    <nav className={`bg-background/95 backdrop-blur-sm border-b border-glass-border/30 fixed top-0 left-0 right-0 z-50 transition-all duration-500 h-12 sm:h-16 flex items-center ${scrolled ? 'py-0' : 'py-0'}`}>
+    <nav className={`bg-background/95 backdrop-blur-sm border-b border-glass-border/30 fixed top-0 left-0 right-0 z-50 transition-all duration-500 h-16 flex items-center ${scrolled ? 'py-0' : 'py-0'}`}>
       <div className="container mx-auto px-2 sm:px-4 w-full">
         <div className="flex items-center justify-between w-full">
             {/* Logo */}
@@ -48,7 +48,7 @@ const Navigation = () => {
                 <img 
                   src="/logo.png" 
                   alt="SakiVihar Swimming Club Logo" 
-                  className="h-6 w-6 sm:h-8 sm:w-8 md:h-10 md:w-10 lg:h-12 lg:w-12 object-contain"
+                  className="h-24 w-24 object-contain"
                   onError={(e) => {
                     // Fallback to text if logo.png doesn't exist
                     e.currentTarget.style.display = 'none';

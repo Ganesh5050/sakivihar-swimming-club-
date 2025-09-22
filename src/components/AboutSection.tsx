@@ -36,7 +36,7 @@ const AboutSection = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <div className="inline-flex items-center justify-center p-3 glass-card rounded-full mb-6">
-            <Waves className="h-8 w-8 text-secondary animate-float" />
+            <Waves className="h-8 w-8 text-secondary" />
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-primary-foreground mb-6">
             <Typewriter 
@@ -93,7 +93,7 @@ const AboutSection = () => {
               style={{ animationDelay: `${index * 150}ms` }}
             >
               <div className="inline-flex items-center justify-center p-4 bg-gradient-primary rounded-full mb-4">
-                <feature.icon className="h-8 w-8 text-primary-foreground animate-float" />
+                <feature.icon className="h-8 w-8 text-primary-foreground" />
               </div>
               <h4 className="text-lg font-semibold text-primary-foreground mb-3">
                 {feature.title}

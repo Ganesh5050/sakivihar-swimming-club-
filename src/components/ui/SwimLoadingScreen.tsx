@@ -58,7 +58,7 @@ const SwimLoadingScreen = ({ onComplete }: SwimLoadingScreenProps) => {
               transition={{ duration: 1.5, delay: 0.5, type: "spring", stiffness: 150 }}
             >
               {/* PNG Logo with Fallback */}
-              <div className="relative w-80 h-80 mx-auto">
+              <div className="relative w-96 h-96 mx-auto">
                 <img 
                   src="/logo.png" 
                   alt="SakiVihar Swimming Club Logo" 

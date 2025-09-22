@@ -50,7 +50,7 @@ const LocationSection = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <div className="inline-flex items-center justify-center p-3 glass-card rounded-full mb-6">
-            <MapPin className="h-8 w-8 text-secondary animate-float" />
+            <MapPin className="h-8 w-8 text-secondary" />
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-primary-foreground mb-6">
             <Typewriter 

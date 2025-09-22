@@ -103,7 +103,7 @@ const CoachesSection = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <div className="inline-flex items-center justify-center p-3 glass-card rounded-full mb-6">
-            <Users className="h-8 w-8 text-secondary animate-float" />
+            <Users className="h-8 w-8 text-secondary" />
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-primary-foreground mb-6">
             <Typewriter 
@@ -158,7 +158,7 @@ const CoachesSection = () => {
               className="glass-card p-6 text-center team-card"
               style={{ animationDelay: `${(index + 3) * 150}ms` }}
             >
-              <stat.icon className="h-8 w-8 text-secondary mx-auto mb-3 animate-float" />
+              <stat.icon className="h-8 w-8 text-secondary mx-auto mb-3" />
               <div className="text-2xl font-bold text-primary-foreground mb-2">
                 {stat.value}
               </div>
