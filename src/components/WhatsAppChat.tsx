@@ -31,12 +31,12 @@ const WhatsAppChat = () => {
   const coaches = [
     {
       id: 1,
-      name: 'Rajesh Kumar',
+      name: 'Prashant Mhatre',
       title: 'Head Swimming Coach',
       phone: '+91 98765 43210', // Update with actual phone number
       speciality: 'Competitive Swimming',
       avatar: '🏊‍♂️',
-      preMessage: 'Hi Rajesh Sir! I\'m interested in joining SakiVihar Swimming Club. Could you please provide more information about swimming lessons and membership?'
+      preMessage: 'Hi Prashant Sir! I\'m interested in joining SakiVihar Swimming Club. Could you please provide more information about swimming lessons and membership?'
     }
   ];
 

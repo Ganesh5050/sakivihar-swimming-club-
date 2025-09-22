@@ -4,7 +4,7 @@ import Typewriter from '@/components/Typewriter';
 const CoachesSection = () => {
   const coaches = [
     {
-      name: 'Rajesh Kumar',
+      name: 'Prashant Mhatre',
       title: 'Head Coach & Director',
       experience: '15+ Years',
       specialization: 'Competitive Swimming',

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, MapPin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Navigation = () => {
@@ -91,13 +91,22 @@ const Navigation = () => {
             </Button>
           </div>
 
-          {/* Mobile Menu Button */}
-          <button
-            className="lg:hidden text-primary-foreground p-1 sm:p-2 hover:bg-glass/50 rounded-lg transition-colors"
-            onClick={() => setIsOpen(!isOpen)}
-          >
-            {isOpen ? <X className="h-5 w-5 sm:h-6 sm:w-6" /> : <Menu className="h-5 w-5 sm:h-6 sm:w-6" />}
-          </button>
+          {/* Mobile Navigation - Location + Menu */}
+          <div className="lg:hidden flex items-center space-x-3">
+            <button
+              onClick={() => handleNavClick('#location', 'Location')}
+              className="text-primary-foreground hover:text-secondary transition-colors p-2"
+              title="Location"
+            >
+              <MapPin className="h-5 w-5" />
+            </button>
+            <button
+              className="text-primary-foreground p-1 sm:p-2 hover:bg-glass/50 rounded-lg transition-colors"
+              onClick={() => setIsOpen(!isOpen)}
+            >
+              {isOpen ? <X className="h-5 w-5 sm:h-6 sm:w-6" /> : <Menu className="h-5 w-5 sm:h-6 sm:w-6" />}
+            </button>
+          </div>
         </div>
 
         {/* Mobile Navigation */}
