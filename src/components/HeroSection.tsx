@@ -75,7 +75,7 @@ const HeroSection = () => {
             onClick={() => {
               // Direct WhatsApp integration with pre-filled message
               const message = encodeURIComponent("Hi! I'm interested in joining SakiVihar Swimming Club. Could you please provide more information about swimming lessons and membership?");
-              const phoneNumber = "919876543210"; // Update with actual phone number
+                      const phoneNumber = "917208000785"; // Indian phone number
               const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
               window.open(whatsappUrl, '_blank');
             }}

@@ -82,7 +82,7 @@ const Navigation = () => {
               className="glow-button text-sm px-4 py-2"
               onClick={() => {
                 const message = encodeURIComponent("Hi! I'm interested in joining SakiVihar Swimming Club. Could you please provide more information about swimming lessons and membership?");
-                const phoneNumber = "919876543210"; // Update with actual phone number
+                const phoneNumber = "917208000785"; // Indian phone number
                 const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
                 window.open(whatsappUrl, '_blank');
               }}
@@ -127,7 +127,7 @@ const Navigation = () => {
                   className="glow-button mt-2 sm:mt-3 text-xs sm:text-sm px-3 sm:px-4 py-1.5 sm:py-2 w-full sm:w-auto"
                   onClick={() => {
                     const message = encodeURIComponent("Hi! I'm interested in joining SakiVihar Swimming Club. Could you please provide more information about swimming lessons and membership?");
-                    const phoneNumber = "919876543210"; // Update with actual phone number
+                    const phoneNumber = "917208000785"; // Indian phone number
                     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
                     window.open(whatsappUrl, '_blank');
                   }}

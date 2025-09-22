@@ -10,7 +10,7 @@ const LocationSection = () => {
     name: "SakiVihar Swimming Club",
     address: "Andheri East, Sakinaka, Mumbai, Maharashtra",
     coordinates: `${latitude}, ${longitude}`,
-    phone: "+91 98765 43210", // You can update this with actual phone number
+    phone: "+91 72080 00785", // Indian phone number
     timings: [
       { day: "Monday - Friday", time: "6:00 AM - 10:00 PM" },
       { day: "Saturday - Sunday", time: "6:00 AM - 8:00 PM" }
